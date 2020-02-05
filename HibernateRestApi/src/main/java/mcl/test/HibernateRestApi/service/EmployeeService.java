@@ -1,10 +1,10 @@
-package mcl.test.HibernateRestApi.dao;
+package mcl.test.HibernateRestApi.service;
 
 import java.util.List;
 
 import mcl.test.HibernateRestApi.entity.Employee;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 	
 	public List<Employee> findAll();
 	
@@ -14,5 +14,5 @@ public interface EmployeeDAO {
 	
 	public void delete(int id);
 	
-	
+
 }
